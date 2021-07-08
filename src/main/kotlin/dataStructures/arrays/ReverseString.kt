@@ -1,10 +1,12 @@
 package dataStructures.arrays
 
 class ReverseString {
-    fun reverse(string: String): String {
+    fun reverse(string: String?): String {
         var result = ""
-        for (i in string.length - 1 downTo 0) {
-            result +=string[i]
+        if (string != null) {
+            for (i in string.length - 1 downTo 0) {
+                result += string[i]
+            }
         }
         return result
     }
