@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0add8215-86e6-4c25-a22d-63b01524b069" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries-with-intellij-classes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/arrays/ReverseString.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/arrays/ReverseString.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dataStructures/arrays/ReverseStringTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dataStructures/arrays/ReverseStringTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/hashTables/RecurringCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/hashTables/RecurringCharacter.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,28 +71,7 @@
       <recent name="kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.MergedSortedArrayTest.arr2EmptyMergeTest">
-    <configuration name="MergedSortedArrayTest.arr1EmptyMergeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.arrays.MergedSortedArrayTest.arr1EmptyMergeTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest">
     <configuration name="MergedSortedArrayTest.arr2EmptyMergeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -117,12 +93,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergedSortedArrayTest.arr2LargerMergeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecurringCharacterTest.emptyArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.arrays.MergedSortedArrayTest.arr2LargerMergeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.emptyArrayTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -138,12 +114,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="MergedSortedArrayTest.mergedSortedArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecurringCharacterTest.firstRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.arrays.MergedSortedArrayTest.mergedSortedArrayTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.firstRecurringCharacterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -159,12 +135,33 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="ReverseStringTest.reverseNullString" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="RecurringCharacterTest.multipleRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.arrays.ReverseStringTest.reverseNullString&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.multipleRecurringCharacterTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RecurringCharacterTest.noRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.noRecurringCharacterTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -182,11 +179,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest" />
+        <item itemvalue="Gradle.RecurringCharacterTest.noRecurringCharacterTest" />
+        <item itemvalue="Gradle.RecurringCharacterTest.emptyArrayTest" />
+        <item itemvalue="Gradle.RecurringCharacterTest.firstRecurringCharacterTest" />
         <item itemvalue="Gradle.MergedSortedArrayTest.arr2EmptyMergeTest" />
-        <item itemvalue="Gradle.MergedSortedArrayTest.arr1EmptyMergeTest" />
-        <item itemvalue="Gradle.MergedSortedArrayTest.arr2LargerMergeTest" />
-        <item itemvalue="Gradle.MergedSortedArrayTest.mergedSortedArrayTest" />
-        <item itemvalue="Gradle.ReverseStringTest.reverseNullString" />
       </list>
     </recent_temporary>
   </component>
