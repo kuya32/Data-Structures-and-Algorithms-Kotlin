@@ -2,7 +2,7 @@ package dataStructures.hashTables
 
 class RecurringCharacter {
     fun firstRecurringCharacter(array: IntArray): Int? {
-        var hashSet = HashSet<Int>()
+        val hashSet = HashSet<Int>()
         for (i in array) {
             if (hashSet.contains(i)) {
                 return i
