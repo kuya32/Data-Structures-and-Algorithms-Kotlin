@@ -32,7 +32,7 @@ class singlyLinkedList(value: Int) {
     }
 
     fun insert(index: Int, value: Int) {
-        if (index < 0 || index > length) {
+        if (index < 0 || index > (length - 1)) {
             println("Index is out of bounds for length $length")
         } else if (index == 0) {
             prepend(value)
@@ -47,6 +47,24 @@ class singlyLinkedList(value: Int) {
             newNode.next = current?.next
             current?.next = newNode
             length++
+        }
+    }
+
+    fun remove(index: Int) {
+        if (index < 0 || index > (length - 1)) {
+            println("Index is out of bounds for length $length")
+        } else if (index == 0) {
+            head = head?.next
+            length--
+        } else {
+            var current: Node? = head
+            var i = 0
+            while (i < index - 1) {
+                current = current?.next
+                i++
+            }
+            current?.next = current?.next?.next
+            length--
         }
     }
 }

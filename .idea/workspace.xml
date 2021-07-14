@@ -73,28 +73,7 @@
       <recent name="kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.singlyLinkedListTest.singlyInsertTest">
-    <configuration name="RecurringCharacterTest.multipleRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.multipleRecurringCharacterTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Gradle.singlyLinkedListTest.singlyRemoveTest">
     <configuration name="singlyLinkedListTest.singlyAppendTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -158,6 +137,27 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="singlyLinkedListTest.singlyRemoveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyRemoveTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="singlyLinkedListTest.singlyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyRemoveTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyInsertTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyPrependTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyAppendTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyTest" />
-        <item itemvalue="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest" />
       </list>
     </recent_temporary>
   </component>

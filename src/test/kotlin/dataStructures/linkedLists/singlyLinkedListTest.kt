@@ -36,4 +36,17 @@ class singlyLinkedListTest {
         result = singly.printList().contentToString()
         assertEquals(intArrayOf(25, 23, 20, 15, 10, 5).contentToString(), result)
     }
+
+    @Test
+    fun singlyRemoveTest() {
+        singly.prepend(15)
+        singly.prepend(20)
+        singly.insert(0, 25)
+        singly.remove(0)
+        var result = singly.printList().contentToString()
+        assertEquals(intArrayOf(20, 15, 10).contentToString(), result)
+        singly.remove(2)
+        result = singly.printList().contentToString()
+        assertEquals(intArrayOf(20, 15).contentToString(), result)
+    }
 }
