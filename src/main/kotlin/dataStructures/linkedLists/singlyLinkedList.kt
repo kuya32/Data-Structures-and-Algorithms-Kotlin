@@ -30,4 +30,23 @@ class singlyLinkedList(value: Int) {
         }
         return myList
     }
+
+    fun insert(index: Int, value: Int) {
+        if (index < 0 || index > length) {
+            println("Index is out of bounds for length $length")
+        } else if (index == 0) {
+            prepend(value)
+        } else if (index == (length - 1)) {
+            append(value)
+        } else {
+            var current: Node? = head
+            for (i in 0 until index - 1) {
+                current = current?.next
+            }
+            val newNode = Node(value)
+            newNode.next = current?.next
+            current?.next = newNode
+            length++
+        }
+    }
 }

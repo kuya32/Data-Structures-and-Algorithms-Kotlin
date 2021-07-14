@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0add8215-86e6-4c25-a22d-63b01524b069" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" afterDir="false" />
     </list>
@@ -72,7 +73,7 @@
       <recent name="kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.singlyLinkedListTest.singlyPrependTest">
+  <component name="RunManager" selected="Gradle.singlyLinkedListTest.singlyInsertTest">
     <configuration name="RecurringCharacterTest.multipleRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -94,12 +95,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RecurringCharacterTest.noRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyAppendTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.noRecurringCharacterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyAppendTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -115,12 +116,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="singlyLinkedListTest.singlyAppendTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyInsertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyAppendTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyInsertTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -180,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyInsertTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyPrependTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyAppendTest" />
         <item itemvalue="Gradle.singlyLinkedListTest.singlyTest" />
         <item itemvalue="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest" />
-        <item itemvalue="Gradle.RecurringCharacterTest.noRecurringCharacterTest" />
       </list>
     </recent_temporary>
   </component>
