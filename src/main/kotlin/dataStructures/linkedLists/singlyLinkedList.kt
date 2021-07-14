@@ -6,9 +6,16 @@ class singlyLinkedList(value: Int) {
     var length: Int = 1
 
     fun append(value: Int) {
-        var newNode = Node(value)
+        val newNode = Node(value)
         tail?.next = newNode
         tail = newNode
+        length++
+    }
+
+    fun prepend(value: Int) {
+        val newNode = Node(value)
+        newNode.next = head
+        head = newNode
         length++
     }
 
