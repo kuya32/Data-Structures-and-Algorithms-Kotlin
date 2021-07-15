@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="0add8215-86e6-4c25-a22d-63b01524b069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/hashTables/RecurringCharacter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/hashTables/RecurringCharacter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +66,20 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="dataStructures.linkedLists" />
       <recent name="DataStructures" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="kotlin" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest">
-    <configuration name="MergedSortedArrayTest.arr2EmptyMergeTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.singlyLinkedListTest.reverseSinglyTest">
+    <configuration name="singlyLinkedListTest.reverseSinglyTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.arrays.MergedSortedArrayTest.arr2EmptyMergeTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.reverseSinglyTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -93,12 +95,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RecurringCharacterTest.emptyArrayTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyAppendTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.emptyArrayTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyAppendTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -114,12 +116,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RecurringCharacterTest.firstRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyInsertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.firstRecurringCharacterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyInsertTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -135,12 +137,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RecurringCharacterTest.multipleRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyPrependTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.multipleRecurringCharacterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyPrependTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -156,12 +158,12 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="RecurringCharacterTest.noRecurringCharacterTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="singlyLinkedListTest.singlyRemoveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
         <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.hashTables.RecurringCharacterTest.noRecurringCharacterTest&quot;" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyRemoveTest&quot;" />
         <option name="taskDescriptions">
           <list />
         </option>
@@ -179,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.RecurringCharacterTest.multipleRecurringCharacterTest" />
-        <item itemvalue="Gradle.RecurringCharacterTest.noRecurringCharacterTest" />
-        <item itemvalue="Gradle.RecurringCharacterTest.emptyArrayTest" />
-        <item itemvalue="Gradle.RecurringCharacterTest.firstRecurringCharacterTest" />
-        <item itemvalue="Gradle.MergedSortedArrayTest.arr2EmptyMergeTest" />
+        <item itemvalue="Gradle.singlyLinkedListTest.reverseSinglyTest" />
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyRemoveTest" />
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyInsertTest" />
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyPrependTest" />
+        <item itemvalue="Gradle.singlyLinkedListTest.singlyAppendTest" />
       </list>
     </recent_temporary>
   </component>
