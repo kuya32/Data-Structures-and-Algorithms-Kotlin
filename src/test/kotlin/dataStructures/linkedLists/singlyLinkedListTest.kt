@@ -1,6 +1,7 @@
 package dataStructures.linkedLists
 
 import org.junit.Test
+import kotlin.math.sin
 import kotlin.test.assertEquals
 
 class singlyLinkedListTest {
@@ -48,5 +49,14 @@ class singlyLinkedListTest {
         singly.remove(2)
         result = singly.printList().contentToString()
         assertEquals(intArrayOf(20, 15).contentToString(), result)
+    }
+
+    @Test
+    fun reverseSinglyTest() {
+        singly.prepend(15)
+        singly.prepend(20)
+        singly.insert(0, 25)
+        var result = singly.reverse(singly).printList().contentToString()
+        assertEquals(intArrayOf(10, 15, 20, 25).contentToString(), result)
     }
 }

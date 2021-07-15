@@ -67,4 +67,17 @@ class singlyLinkedList(value: Int) {
             length--
         }
     }
+
+    fun reverse(linkedList: singlyLinkedList): singlyLinkedList {
+        val newLink = singlyLinkedList(linkedList.head!!.value)
+        var current: Node? = linkedList.head
+        while (current?.next != null) {
+            current = current.next
+            val newNode = Node(current!!.value)
+            newNode.next = newLink.head
+            newLink.head = newNode
+            newLink.length++
+        }
+        return newLink
+    }
 }
