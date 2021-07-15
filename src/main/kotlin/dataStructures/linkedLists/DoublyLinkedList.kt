@@ -1,12 +1,13 @@
 package dataStructures.linkedLists
 
-class singlyLinkedList(value: Int) {
+class DoublyLinkedList(value: Int) {
     private var head: Node? = Node(value)
     private var tail: Node? = head
     var length: Int = 1
 
     fun append(value: Int) {
         val newNode = Node(value)
+        newNode.prev = tail
         tail?.next = newNode
         tail = newNode
         length++
@@ -14,6 +15,7 @@ class singlyLinkedList(value: Int) {
 
     fun prepend(value: Int) {
         val newNode = Node(value)
+        head?.prev = newNode
         newNode.next = head
         head = newNode
         length++
@@ -46,6 +48,8 @@ class singlyLinkedList(value: Int) {
             val newNode = Node(value)
             newNode.next = current?.next
             current?.next = newNode
+            newNode.prev = current
+            newNode.next?.prev = newNode
             length++
         }
     }
@@ -65,19 +69,11 @@ class singlyLinkedList(value: Int) {
             }
             current?.next = current?.next?.next
             length--
+            if (i == length - 1) {
+                tail = current
+            } else {
+                current?.next?.prev = current
+            }
         }
-    }
-
-    fun reverse(linkedList: singlyLinkedList): singlyLinkedList {
-        val newLink = singlyLinkedList(linkedList.head!!.value)
-        var current: Node? = linkedList.head
-        while (current?.next != null) {
-            current = current.next
-            val newNode = Node(current!!.value)
-            newNode.next = newLink.head
-            newLink.head = newNode
-            newLink.length++
-        }
-        return newLink
     }
 }
