@@ -6,8 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="0add8215-86e6-4c25-a22d-63b01524b069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/singlyLinkedList.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dataStructures/linkedLists/singlyLinkedListTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/Node.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
