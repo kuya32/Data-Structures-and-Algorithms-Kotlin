@@ -1,7 +1,5 @@
 package dataStructures.stacksAndQueues.stacks
 
-import dataStructures.stacksAndQueues.Node
-
 class StacksUsingLinkedLists {
     private var top: Node? = null
     private var bottom: Node? = null

@@ -1,7 +1,5 @@
 package dataStructures.stacksAndQueues.stacks
 
-import dataStructures.stacksAndQueues.Node
-
 class StacksUsingArrays {
     private val stackArray: ArrayList<Int> = ArrayList()
 
