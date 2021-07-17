@@ -1,4 +1,4 @@
 package dataStructures.linkedLists
 
-class doublyLinkedListTest {
+class DoublyLinkedListTest {
 }

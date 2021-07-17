@@ -1,11 +1,10 @@
 package dataStructures.linkedLists
 
 import org.junit.Test
-import kotlin.math.sin
 import kotlin.test.assertEquals
 
-class singlyLinkedListTest {
-    var singly = singlyLinkedList(10)
+class SinglyLinkedListTest {
+    var singly = SinglyLinkedList(10)
 
     @Test
     fun singlyAppendTest() {
