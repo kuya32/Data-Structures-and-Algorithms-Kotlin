@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0add8215-86e6-4c25-a22d-63b01524b069" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/Node.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/stacks/Node.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/stacks/StacksUsingArrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/stacks/StacksUsingArrays.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/stacks/StacksUsingLinkedLists.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/stacks/StacksUsingLinkedLists.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/kotlin/dataStructures/stacksAndQueues/queues/QueuesTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/dataStructures/stacksAndQueues/queues/QueuesTest.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +48,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/SinglyLinkedList.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/arrays/ReverseString.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/linkedLists/DoublyLinkedList.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/trees/binarySearchTree/BinarySearchTree.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/test/kotlin/dataStructures/trees/binarySearrchTree/BinarySearchTreeTest.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/stacksAndQueues/queues/Queues.kt" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/kotlin/dataStructures/trees/binarySearchTree/Node.kt" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1v0TymQ01gX0M6Hj5Y0x70Slq6W" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -61,7 +66,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/codefellows/401/data-structures-and-algorithms/challenges" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -80,7 +85,28 @@
       <recent name="dataStructures.stacksAndQueues" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.QueuesTest.queueMethodTests">
+  <component name="RunManager" selected="Gradle.BinarySearchTreeTest.insertTest">
+    <configuration name="BinarySearchTreeTest.insertTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;dataStructures.trees.binarySearrchTree.BinarySearchTreeTest.insertTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="QueuesTest.queueMethodTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -165,34 +191,13 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="singlyLinkedListTest.singlyRemoveTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="--tests &quot;dataStructures.linkedLists.singlyLinkedListTest.singlyRemoveTest&quot;" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":test" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.BinarySearchTreeTest.insertTest" />
         <item itemvalue="Gradle.QueuesTest.queueMethodTests" />
         <item itemvalue="Gradle.StacksUsingArraysTest.stackArrayMethodsTest" />
         <item itemvalue="Gradle.StacksUsingLinkedListTest.stackMethodTests" />
         <item itemvalue="Gradle.singlyLinkedListTest.reverseSinglyTest" />
-        <item itemvalue="Gradle.singlyLinkedListTest.singlyRemoveTest" />
       </list>
     </recent_temporary>
   </component>
