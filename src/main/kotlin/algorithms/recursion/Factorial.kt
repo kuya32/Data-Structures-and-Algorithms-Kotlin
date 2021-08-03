@@ -1,6 +1,6 @@
-package algorithms
+package algorithms.recursion
 
-class Recursion {
+class Factorial {
 
     fun findFactorialRecursive(number: Int): Int {
         return if (number < 2) {
